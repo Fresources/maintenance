@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#0e0d26" />
+    <title>Under maintenance | Fresources</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: #0e0d26;
+        color: #f7f7ff;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        min-height: 100vh;
+        min-height: 100dvh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        overflow-x: hidden;
+        background:
+          radial-gradient(ellipse 55% 50% at 78% 18%, rgba(99, 25, 207, .24), transparent 75%),
+          radial-gradient(ellipse 45% 42% at 15% 80%, rgba(45, 103, 245, .18), transparent 78%),
+          #0e0d26;
+      }
+
+      main {
+        width: min(100%, 960px);
+        padding: clamp(32px, 7vw, 80px);
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 13px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 750;
+        letter-spacing: -.045em;
+      }
+
+      .mark {
+        display: grid;
+        place-items: center;
+        width: 39px;
+        height: 39px;
+        border-radius: 11px;
+        background: linear-gradient(145deg, #7439e6, #356af5);
+        box-shadow: 0 10px 30px rgba(55, 55, 207, .3);
+        font-size: 26px;
+        font-weight: 850;
+        line-height: 1;
+      }
+
+      .content { margin-top: clamp(90px, 15vh, 160px); }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 9px;
+        color: #bdb5fc;
+        font-size: 12px;
+        font-weight: 750;
+        letter-spacing: .14em;
+        text-transform: uppercase;
+      }
+
+      .eyebrow::before {
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #9b87ff;
+        box-shadow: 0 0 0 4px rgba(155, 135, 255, .12);
+      }
+
+      h1 {
+        max-width: 760px;
+        margin: 22px 0 22px;
+        font-size: clamp(48px, 8.5vw, 92px);
+        font-weight: 780;
+        line-height: .99;
+        letter-spacing: -.075em;
+      }
+
+      h1 span {
+        color: #a69bff;
+      }
+
+      p {
+        max-width: 550px;
+        margin: 0;
+        color: #b5b6d2;
+        font-size: clamp(17px, 2.3vw, 21px);
+        line-height: 1.6;
+      }
+
+      .rule {
+        width: 100%;
+        height: 1px;
+        margin-top: clamp(90px, 16vh, 160px);
+        background: linear-gradient(90deg, rgba(166, 155, 255, .45), rgba(166, 155, 255, 0));
+      }
+
+      footer {
+        margin-top: 20px;
+        color: #777b9d;
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="brand" aria-label="Fresources">
+        <span class="mark" aria-hidden="true">f</span>
+        <span>Fresources</span>
+      </div>
+
+      <div class="content">
+        <div class="eyebrow">Under maintenance</div>
+        <h1>A short pause.<br /><span>We’ll be back.</span></h1>
+        <p>Fresources is temporarily unavailable. We expect to be back in a couple of days. Thanks for your patience.</p>
+      </div>
+
+      <div class="rule" aria-hidden="true"></div>
+      <footer>Fresources · Study resources for students</footer>
+    </main>
+  </body>
+</html>
